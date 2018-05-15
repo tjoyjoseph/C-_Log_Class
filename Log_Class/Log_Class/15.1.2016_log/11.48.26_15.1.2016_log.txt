@@ -1,0 +1,5 @@
+  Time    Log Type     Comments 
+11.48.26 |   DEBUG   |   Function: DynArray<Type>::DynArray(char LogType, string FileName)
+11.48.26 |   DEBUG   |   void DynArray<Type>::reset(int ArraySize)
+11.48.26 |   DEBUG   |   Function: Get(int index)
+11.48.26 |   DEBUG   |   DynArray<Type>::~DynArray()

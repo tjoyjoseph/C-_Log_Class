@@ -1,0 +1,3 @@
+  Time    Log Type     Comments 
+20.59.8 |   DEBUG   |   Function: Get(int index)
+20.59.8 |   ERR   |   Index Out Of Range

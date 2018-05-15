@@ -1,0 +1,14 @@
+   Time		  Log Type	Comments 
+12.58.3.680	|   DEBUG  |   Function: DynArray<Type>::DynArray(char LogType, string FileName)
+12.58.3.696	|   DEBUG  |   Function: void DynArray<Type>::reset(int ArraySize)
+12.58.3.711	|   DEBUG  |   Function: void DynArray<Type>::push_back(Type Item)
+12.58.3.725	|   DEBUG  |   Function: void DynArray<Type>::ExpandBuffer()
+12.58.3.741	|   DEBUG  |   Function: void DynArray<Type>::push_back(Type Item)
+12.58.3.756	|   DEBUG  |   Function: void DynArray<Type>::ExpandBuffer()
+12.58.3.772	|   DEBUG  |   Function: void DynArray<Type>::push_back(Type Item)
+12.58.3.787	|   DEBUG  |   Function: void DynArray<Type>::ExpandBuffer()
+12.58.3.804	|   DEBUG  |   Function: void DynArray<Type>::push_back(Type Item)
+12.58.3.819	|   DEBUG  |   Function: void DynArray<Type>::ExpandBuffer()
+12.58.3.833	|   DEBUG  |   Function: Get(int index)
+12.58.3.847	|   ERROR  |   Index Out Of Range
+12.58.3.862	|   DEBUG  |   Function: DynArray<Type>::~DynArray()

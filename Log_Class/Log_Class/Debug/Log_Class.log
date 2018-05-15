@@ -1,0 +1,4 @@
+﻿  BlackJack_main.cpp
+c:\users\toby joseph\desktop\log_class\log_class\blackjack_main.cpp(165): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+c:\users\toby joseph\desktop\log_class\log_class\dynarray.h(372): warning C4715: 'DynArray<deck>::operator[]': not all control paths return a value
+  Log_Class.vcxproj -> C:\Users\Toby Joseph\Desktop\Log_Class\Debug\Log_Class.exe

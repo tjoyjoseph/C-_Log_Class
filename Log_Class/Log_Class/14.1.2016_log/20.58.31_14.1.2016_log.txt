@@ -1,0 +1,2 @@
+  Time    Log Type     Comments 
+20.58.31 |   DEBUG   |   Function: Get(int index)

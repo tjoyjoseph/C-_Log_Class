@@ -1,0 +1,63 @@
+Index		Time		  Log Type	Comments 
+1	|   17.41.23.659	|   DEBUG  |   Begin: DynArray<Type>::DynArray(char LogType, string FileName)
+2	|   17.41.23.661	|   DEBUG  |   Begin: void DynArray<Type>::reset(int ArraySize)
+3	|   17.41.23.662	|   INFO   |   New _buffer variable created
+4	|   17.41.23.664	|   DEBUG  |   Begin: void DynArray<Type>::reset(int ArraySize)
+5	|   17.41.23.666	|   DEBUG  |   End: DynArray<Type>::DynArray(char LogType, string FileName)
+6	|   17.41.23.669	|   DEBUG  |   Begin: void DynArray<Type>::push_back(Type Item)
+7	|   17.41.23.671	|   DEBUG  |   Begin: void DynArray<Type>::expandBuffer()
+8	|   17.41.23.674	|   DEBUG  |   End: void DynArray<Type>::expandBuffer()
+9	|   17.41.23.676	|   DEBUG  |   End: void DynArray<Type>::push_back(Type Item)
+10	|   17.41.23.679	|   DEBUG  |   Begin: void DynArray<Type>::push_back(Type Item)
+11	|   17.41.23.680	|   DEBUG  |   Begin: void DynArray<Type>::expandBuffer()
+12	|   17.41.23.682	|   DEBUG  |   End: void DynArray<Type>::expandBuffer()
+13	|   17.41.23.684	|   DEBUG  |   End: void DynArray<Type>::push_back(Type Item)
+14	|   17.41.23.686	|   DEBUG  |   Begin: void DynArray<Type>::push_back(Type Item)
+15	|   17.41.23.688	|   DEBUG  |   Begin: void DynArray<Type>::expandBuffer()
+16	|   17.41.23.690	|   DEBUG  |   End: void DynArray<Type>::expandBuffer()
+17	|   17.41.23.692	|   DEBUG  |   End: void DynArray<Type>::push_back(Type Item)
+18	|   17.41.23.694	|   DEBUG  |   Begin: void DynArray<Type>::push_back(Type Item)
+19	|   17.41.23.696	|   DEBUG  |   Begin: void DynArray<Type>::expandBuffer()
+20	|   17.41.23.699	|   DEBUG  |   End: void DynArray<Type>::expandBuffer()
+21	|   17.41.23.701	|   DEBUG  |   End: void DynArray<Type>::push_back(Type Item)
+22	|   17.41.23.706	|   DEBUG  |   Function: int DynArray<Type>::size() const
+23	|   17.41.23.711	|   INFO   |   Returns lastIndex+1
+24	|   17.41.23.717	|   DEBUG  |   Begin: Get(int index)
+25	|   17.41.23.718	|   ERROR  |   Index Out Of Range
+26	|   17.41.23.719	|   DEBUG  |   End: Get(int index)
+27	|   17.41.23.724	|   DEBUG  |   Begin: Get(int index)
+28	|   17.41.23.726	|   DEBUG  |   End: Get(int index)
+29	|   17.41.23.737	|   DEBUG  |   Begin: void DynArray<Type>::set(Type newItem, int index)
+30	|   17.41.23.738	|   ERROR  |   Index Out Of Range
+31	|   17.41.23.741	|   DEBUG  |   End: void DynArray<Type>::set(Type newItem, int index)
+32	|   17.41.23.747	|   DEBUG  |   Begin: void DynArray<Type>::set(Type newItem, int index)
+33	|   17.41.23.749	|   INFO   |   Item number 'index' has been changed to 'newItem'
+34	|   17.41.23.752	|   DEBUG  |   End: void DynArray<Type>::set(Type newItem, int index)
+35	|   17.41.23.756	|   DEBUG  |   Begin: DynArray<Type>::remove(int rmvIndex)
+36	|   17.41.23.758	|   ERROR  |   Index Out Of Range
+37	|   17.41.23.760	|   DEBUG  |   End: DynArray<Type>::remove(int rmvIndex)
+38	|   17.41.23.765	|   DEBUG  |   Begin: DynArray<Type>::remove(int rmvIndex)
+39	|   17.41.23.769	|   INFO   |   Items after index 'rmvIndex' have been shifted up by one place 
+40	|   17.41.23.781	|   INFO   |   Last Index decremented by 1 
+41	|   17.41.23.784	|   DEBUG  |   End: DynArray<Type>::remove(int rmvIndex)
+42	|   17.41.23.787	|   DEBUG  |   Begin: void DynArray<Type>::pop_back()
+43	|   17.41.23.789	|   DEBUG  |   End: void DynArray<Type>::pop_back()
+44	|   17.41.23.794	|   DEBUG  |   Begin: void DynArray<Type>::push_back(Type Item)
+45	|   17.41.23.795	|   DEBUG  |   Begin: void DynArray<Type>::expandBuffer()
+46	|   17.41.23.798	|   DEBUG  |   End: void DynArray<Type>::expandBuffer()
+47	|   17.41.23.800	|   DEBUG  |   End: void DynArray<Type>::push_back(Type Item)
+48	|   17.41.23.802	|   DEBUG  |   Begin: void DynArray<Type>::push_back(Type Item)
+49	|   17.41.23.804	|   DEBUG  |   Begin: void DynArray<Type>::expandBuffer()
+50	|   17.41.23.806	|   DEBUG  |   End: void DynArray<Type>::expandBuffer()
+51	|   17.41.23.808	|   DEBUG  |   End: void DynArray<Type>::push_back(Type Item)
+52	|   17.41.23.815	|   DEBUG  |   Begin: void DynArray<Type>::push_back(Type Item)
+53	|   17.41.23.817	|   DEBUG  |   Begin: void DynArray<Type>::expandBuffer()
+54	|   17.41.23.819	|   DEBUG  |   End: void DynArray<Type>::expandBuffer()
+55	|   17.41.23.821	|   DEBUG  |   End: void DynArray<Type>::push_back(Type Item)
+56	|   17.41.23.824	|   DEBUG  |   Begin: void DynArray<Type>::zap()
+57	|   17.41.23.826	|   DEBUG  |   Begin: void DynArray<Type>::reset(int ArraySize)
+58	|   17.41.23.832	|   INFO   |   New _buffer variable created
+59	|   17.41.23.834	|   DEBUG  |   Begin: void DynArray<Type>::reset(int ArraySize)
+60	|   17.41.23.836	|   DEBUG  |   End: void DynArray<Type>::zap()
+61	|   17.41.23.837	|   DEBUG  |   Begin: DynArray<Type>::~DynArray()
+62	|   17.41.23.839	|   DEBUG  |   End: DynArray<Type>::~DynArray()
